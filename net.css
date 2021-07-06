@@ -3,10 +3,12 @@ body{
     margin: 0;
 }
 section{
-    display: flex;
     margin-bottom: 20px;
 }
-.top-section{
+.Flex{
+    display:flex;
+}
+#top-section{
     background-image: url(shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
 }
@@ -21,8 +23,7 @@ h1{
     width: 50%;
 }
 div img{
-    width: 80%;
-    padding-right: 10%;
+    width: 100%;
 }
 .ancor{
     text-decoration: none;
@@ -33,7 +34,7 @@ div img{
     font-size: 20px;
     border-radius: 20px;
 }
-.middle-section{
+#middle-section{
     background-image: url(shapes/Frame\ 58.jpg);
 }
 .ancor-2{
@@ -44,4 +45,64 @@ div img{
     color:rgb(238, 241, 238);
     font-size: 20px;
     border-radius: 20px;
+}
+.h2{
+    margin-top: 20px;
+    text-align: center;
+    color: darkgrey;
+}
+.recipie-p{
+    text-align: center;
+    margin: 0 20%;
+    margin-bottom: 10px;
+}
+.buttom-div{
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px darkslategray;
+    border-radius: 20px;
+    
+}
+#last-img{
+    weight:100%;
+    border-radius: 20px;
+}
+#gradient-a{
+    border-image-source: linear-gradient(rgb(229, 255, 0), rgb(255, 123, 0));
+    border-image-slice: 1;
+    border-left: 10px solid red;
+}
+#gradient-b{
+    border-image-source: linear-gradient(rgb(89, 0, 255), rgb(255, 72, 0));
+    border-image-slice: 1;
+    border-left: 10px solid red;
+}
+#gradient-c{
+    border-image-source: linear-gradient(rgb(255, 0, 13), rgb(0, 255, 21));
+    border-image-slice: 1;
+    border-left: 10px solid red;
+}
+.footer{
+    text-align: center;
+    background-color: deeppink;
+    margin-top: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#footer-h{
+    color: gold;
+}
+#footer-h2{
+    color: ivory;
+}
+#fan-group{
+    text-align: center;
+    margin: 50px 10%;
+    background-color: ivory;
+}
+.group{
+    padding: 5px 10%;
 }
